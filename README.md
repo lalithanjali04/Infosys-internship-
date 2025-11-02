@@ -89,10 +89,11 @@ Performed post-cleaning validation to ensure:
 
 ---
 
+
 ## 📁 Output Directory Structure
 
-<img width="453" height="423" alt="Screenshot 2025-10-21 150800" src="<img width="366" height="533" alt="Screenshot 2025-10-25 122000" src="https://github.com/user-attachments/assets/808fd87c-6556-4732-ab26-5f945c39eebf" />
-" />
+<img src="https://github.com/user-attachments/assets/<img width="366" height="533" alt="Screenshot 2025-10-25 122000" src="https://github.com/user-attachments/assets/92a361bf-8d04-4baa-b647-b46656a67fad" />
+" alt="Output Folder Structure" width="450">
 
 
 
