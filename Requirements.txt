@@ -46,5 +46,8 @@ streamlit
 pyngrok
 google-colab
 
-
+# --- Development & Jupyter Tools ---
+jupyter
+notebook
+ipykernel
 
