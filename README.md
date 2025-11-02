@@ -201,4 +201,174 @@ Below is a sample before-and-after visualization generated during the enhancemen
 
 ---
 
+# 🤖 Module 3: Clinical Note Generation & ICD-10 Coding Automation
+
+## 🎯 Objective
+Automate **clinical documentation** and **medical coding** using **Hugging Face Transformer models**, to generate structured clinical notes and corresponding **ICD-10 codes** from patient data.  
+This module serves as the **AI core** of the project — transforming structured datasets into meaningful medical narratives and diagnostic classifications.
+
+---
+
+## ⚙️ Workflow Overview
+
+The process involves three major steps:
+
+| Step | Process | Description |
+|------|----------|-------------|
+| **1️⃣ Prompt Preparation** | Generate AI-friendly text prompts using patient details (name, condition, test results). |
+| **2️⃣ Clinical Note Generation** | Use a fine-tuned text-to-text model to produce structured clinical notes. |
+| **3️⃣ ICD-10 Code Automation** | Predict corresponding ICD-10 codes for each generated clinical note. |
+
+---
+
+## 🧠 Models Used (from Hugging Face)
+
+| Task | Model Name | Purpose | Framework |
+|------|-------------|----------|------------|
+| **Clinical Note Generation** | `google/flan-t5-large` | Generates structured clinical notes based on patient information. | Transformers (Text2Text Generation) |
+| **ICD-10 Code Prediction** | `AkshatSurolia/ICD-10-Code-Prediction` | Automatically predicts ICD-10 codes from generated notes. | Transformer (Sequence Classification) |
+
+---
+
+## 🩺 Clinical Note Generation
+
+### 🧩 Method
+- The **Flan-T5-Large** model from Hugging Face was used for generating **realistic, structured clinical notes**.
+- Custom prompts were created with patient demographics, condition, test results, and X-ray summaries.
+- The model was tuned for structured output containing:
+  - **Clinical Summary**
+  - **Assessment**
+  - **Plan / Recommendations**
+
+### 🧾 Sample Output
+
+| Input (Prompt Snippet) | Output (Generated Note) |
+|----------------|----------------|
+| *Patient: Bobby Jackson, 30 years, Male, Condition: Cancer* | 🩺 **Clinical Summary:** Patient presents with fatigue and weight loss.<br>🔍 **Assessment:** Findings suggest malignancy progression.<br>💊 **Plan:** Continue chemotherapy and review after 2 weeks. |
+
+---
+
+## 💊 ICD-10 Code Prediction
+
+### 🧩 Method
+- Model: `AkshatSurolia/ICD-10-Code-Prediction`
+- For each **generated clinical note**, the model predicts an ICD-10 code.
+- Utilized **Transformers & PyTorch** backend for classification.
+
+### 🧾 Sample Output
+
+| Clinical Note (Input) | Predicted ICD-10 Code |
+|----------------|---------------------------|
+| “Patient presents with chest discomfort and abnormal X-ray findings…” | **I20.9** – Angina pectoris, unspecified |
+| “Observed symptoms consistent with acute appendicitis…” | **K35.80** – Unspecified acute appendicitis |
+
+---
+
+## 🧮 Unified Dataset Creation
+
+After the AI generation process, all outputs were **combined into a single CSV dataset** for integration and visualization.
+
+| Column | Description |
+|--------|-------------|
+| `patient_id` | Unique patient identifier |
+| `Name`, `Age`, `Gender` | Patient demographics |
+| `Medical Condition` | Primary diagnosis |
+| `clinical_note` | AI-generated structured note |
+| `Predicted_ICD` | ICD-10 code predicted by the model |
+| `Test Results`, `Medication`, `xray_caption` | Contextual data for note generation |
+
+**File Created:**  
+📁 `/content/UnifiedDataset_with_images.csv`
+
+---
+
+## 🧭 Streamlit Dashboard Integration
+
+After generating the unified dataset, an **interactive Streamlit Dashboard** was developed for clinical data visualization and exploration.
+
+| Section | Functionality |
+|----------|---------------|
+| **Overview Table** | Displays all patient records with condition and ICD code. |
+| **Detailed View** | Shows individual patient details, AI-generated notes, and ICD prediction. |
+| **Data Insights** | Includes Pie Chart, Bar Graph, and Line Graph for better trend analysis. |
+
+### 💡 Visualization Highlights
+
+| Chart Type | Purpose |
+|-------------|----------|
+| **Pie Chart** | Shows medical condition distribution among patients. |
+| **Bar Graph** | Displays top 10 most frequent ICD-10 codes. |
+| **Line Graph** | Tracks hospital admissions over time. |
+
+---
+
+## 📊 Streamlit App Layout Overview
+
+| Section | Description |
+|----------|-------------|
+| **Header** | Displays the app title and tagline with a professional aesthetic. |
+| **Search / Filter Sidebar** | Allows filtering by patient ID or name. |
+| **Clinical Note Viewer** | Shows AI-generated notes with styled text box (`#e6f2ff`). |
+| **ICD Code Display** | Highlighted in a success box (green) for easy readability. |
+| **Analytics Area** | Interactive Plotly visualizations for medical trend insights. |
+| **Footer** | Includes author information and GitHub/LinkedIn links. |
+
+---
+
+## ⚙️ Key Libraries Used
+
+| Category | Libraries |
+|-----------|------------|
+| **AI / NLP** | `transformers`, `torch`, `tqdm` |
+| **Visualization** | `streamlit`, `plotly`, `matplotlib` |
+| **Data Processing** | `pandas`, `numpy` |
+| **Deployment** | `pyngrok` (for public Colab app access) |
+| **Utilities** | `os`, `Pillow`, `re` |
+
+---
+
+## 📁 Output Files
+
+| File | Description |
+|------|-------------|
+| `/content/UnifiedDataset_with_images.csv` | Final unified dataset with AI notes and ICD codes |
+| `app.py` | Streamlit dashboard code |
+| `requirements.txt` | All dependencies required for model and dashboard execution |
+
+---
+
+## 🧩 Integration Notes
+
+- The generated **Unified Dataset** acts as the input for the **Streamlit visualization dashboard**.  
+- Enhancements in the model prompts improved note readability and diagnosis consistency.  
+- ICD-10 prediction achieved high contextual relevance with clinical notes.  
+- The overall system allows real-time EHR exploration through a **web-based AI dashboard**.
+
+---
+
+## 🧠 Key Learnings
+
+- Leveraging **pre-trained transformer models** (like T5 and ICD prediction) simplifies medical text generation.  
+- AI-driven ICD coding automation reduces human effort and improves coding accuracy.  
+- Combining AI outputs into a unified visualization system aids in **clinical decision-making** and **medical record transparency**.
+
+---
+
+## ✅ Module-3 Results Summary
+
+- ✅ Structured clinical notes generated using **Flan-T5-Large**  
+- ✅ Automated ICD-10 code prediction using **AkshatSurolia/ICD-10-Code-Prediction**  
+- ✅ Created unified dataset: `/content/UnifiedDataset_with_images.csv`  
+- ✅ Designed a clean and interactive Streamlit dashboard (`app.py`)  
+- ✅ Integrated analytical visuals — Pie, Bar, and Line charts  
+- ✅ Deployment-ready via **Ngrok** for Colab-based public access  
+
+---
+
+## 🧾 Summary
+
+Module 3 successfully bridges AI text generation, medical coding automation, and interactive visualization — forming the **intelligent documentation core** of the entire EHR system.  
+This serves as a critical step toward building AI-driven, structured, and interpretable healthcare data platforms.
+
+
 

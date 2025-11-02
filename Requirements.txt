@@ -1,33 +1,50 @@
 # ============================================
 # AI-Powered EHR Imaging & Documentation System
-# Required Python Libraries
+# Complete Project Requirements (Modules 1–4 + Hugging Face)
 # ============================================
 
-# --- Core Dependencies ---
+# --- Core Data Handling & Preprocessing ---
 pandas
 numpy
+tqdm
+openpyxl
+
+# --- Data Visualization ---
 matplotlib
 seaborn
-tqdm
+plotly
+altair
 
-# --- Image Processing ---
-opencv-python
-Pillow
-scikit-image
-
-# --- Machine Learning & Deep Learning ---
+# --- Natural Language Processing & Hugging Face Models ---
+transformers
+datasets
+huggingface-hub
+accelerate
+sentencepiece
+sacremoses
+nltk
 scikit-learn
+
+# --- Deep Learning (Model Training & Prediction) ---
 torch
 torchvision
 torchaudio
-
-# --- Utility Libraries ---
-einops
 timm
+einops
 
-# --- Visualization & Reports ---
-plotly
-jupyter
-notebook
+# --- Image Processing & Enhancement ---
+opencv-python
+scikit-image
+Pillow
+
+# --- Model Utilities & Serialization ---
+joblib
+pickle-mixin
+
+# --- Dashboard, Deployment & Integration ---
+streamlit
+pyngrok
+google-colab
+
 
 
