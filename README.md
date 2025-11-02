@@ -375,5 +375,19 @@ After generating the unified dataset, an **interactive Streamlit Dashboard** was
 Module 3 successfully bridges AI text generation, medical coding automation, and interactive visualization — forming the **intelligent documentation core** of the entire EHR system.  
 This serves as a critical step toward building AI-driven, structured, and interpretable healthcare data platforms.
 
+## AI-Powered Clinical Dashboard
+
+<img width="1918" height="933" alt="Screenshot 2025-11-02 201813" src="https://github.com/user-attachments/assets/be0ab400-dfe6-4240-a3a9-c92fac4b2b7c" />
+
+---
+
+<img width="1919" height="961" alt="Screenshot 2025-11-02 201846" src="https://github.com/user-attachments/assets/e9424f92-0a3d-4815-83f3-79eb560e23e2" />
+
+---
+
+<img width="1912" height="956" alt="Screenshot 2025-11-02 201906" src="https://github.com/user-attachments/assets/f682e8cf-bbee-4695-9c4b-a23d5dd339b8" />
+
+---
+
 
 
