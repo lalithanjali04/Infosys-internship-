@@ -171,22 +171,13 @@ Below is a sample before-and-after visualization generated during the enhancemen
 
 | Original Image | Enhanced Image |
 |----------------|----------------|
-| <img src="<img width="346" height="197" alt="Screenshot 2025-10-25 121646" src="https://github.com/user-attachments/assets/7b3a7f4f-e326-48e2-a74f-f0a20406d075" />
-" />
-" alt="Original X-ray" width="358" height="259"> | <img src=<<img width="334" height="180" alt="Screenshot 2025-10-25 121659" src="https://github.com/user-attachments/assets/6c969ecc-87d1-4e68-b4b7-0c1de51c3561" />
-" />
-"> |
-
+| ![Original X-ray](https://github.com/user-attachments/assets/08e13357-5993-4a7c-b77f-a90b7b47a79c) | ![Enhanced X-ray](https://github.com/user-attachments/assets/47701af7-766f-4305-a76e-bc627069efef) |
 
 ## 📝 Prescription Images: Before vs After Enhancement
 
 | Original Image | Enhanced Image |
 |----------------|----------------|
-| <img src="<img width="358" height="259" alt="Screenshot 2025-10-25 121559" src="https://github.com/user-attachments/assets/20b8f100-ed93-48ee-b523-284f67fea98a" />
-
-" alt="Original Prescription" width="346" height="197"> | <img src="!<img width="360" height="256" alt="Screenshot 2025-10-25 121628" src="https://github.com/user-attachments/assets/6c488d8d-b1b6-4caf-bad7-6a8027f8d226" />
-()
-" alt="Enhanced Prescription" width="334" height="180"> |
+| ![Original Prescription](https://github.com/user-attachments/assets/344fb232-2c0c-4734-ab0d-dfc1ae75f3b9) | ![Enhanced Prescription](https://github.com/user-attachments/assets/f4865b64-23b6-4a7d-bc83-dbd82b4c93db) |
 
 ---
 
