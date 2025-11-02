@@ -90,10 +90,10 @@ Performed post-cleaning validation to ensure:
 ---
 
 
+
 ## 📁 Output Directory Structure
 
-<img src="https://github.com/user-attachments/assets/<img width="366" height="533" alt="Screenshot 2025-10-25 122000" src="https://github.com/user-attachments/assets/92a361bf-8d04-4baa-b647-b46656a67fad" />
-" alt="Output Folder Structure" width="450">
+<img width="441" height="432" alt="Screenshot 2025-10-21 150845" src="https://github.com/user-attachments/assets/1ee0a3da-3cd5-4660-b216-1c4a755187d4" />
 
 
 
