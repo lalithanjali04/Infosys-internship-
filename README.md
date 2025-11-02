@@ -90,15 +90,6 @@ Performed post-cleaning validation to ensure:
 ---
 
 
-
-## 📁 Output Directory Structure
-
-<img width="441" height="432" alt="Screenshot 2025-10-25 122000" src="https://github.com/user-attachments/assets/5ec75f22-741e-4b0a-a52c-faada2331beb" />
-
-
-
----
-
 ## ✅ Module-1 Results Summary
 - Structured and unstructured datasets successfully preprocessed  
 - Patient records are standardized and machine-readable  
@@ -162,25 +153,7 @@ To validate the quality of the enhanced images, the following quantitative metri
 - The improvement in contrast and clarity ensures that **ML and CNN-based models** can extract better features from images.
 - The enhanced datasets maintain compatibility with the cleaned structured data generated in **Module 1**.
 
----
 
-## 📊 Visual Comparison
-Below is a sample before-and-after visualization generated during the enhancement process:
-
-
-## 🩻 X-ray Images: Before vs After Enhancement
-
-| Original X-ray Image | Enhanced X-ray Image |
-|----------------------|----------------------|
-| <img width="346" height="197" alt="Screenshot 2025-10-25 121559" src="https://github.com/user-attachments/assets/YOUR_ORIGINAL_XRAY_IMAGE_ID" /> | <img width="334" height="180" alt="Screenshot 2025-10-25 121628" src="https://github.com/user-attachments/assets/YOUR_ENHANCED_XRAY_IMAGE_ID" /> |
-
----
-
-## 📝 Prescription Images: Before vs After Enhancement
-
-| Original Image | Enhanced Image |
-|----------------|----------------|
-| <img width="346" height="197" alt="Screenshot 2025-10-25 121646" src="https://github.com/user-attachments/assets/e9f7a47e-5a7a-4634-a2af-84b46197c365" /> | <img width="334" height="180" alt="Screenshot 2025-10-25 121659" src="https://github.com/user-attachments/assets/82039c86-b515-4910-98cb-ff16467b2d01" /> |
 
 ---
 
