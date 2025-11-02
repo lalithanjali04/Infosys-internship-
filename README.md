@@ -211,15 +211,17 @@ This module serves as the **AI core** of the project — transforming structured
 ---
 
 
+
 ## ⚙️ Workflow Overview
 
 The process involves three major steps:
 
-| Step | Process | Description |
-|------|----------|-------------|
+| Step | Process |
+|------|----------|
 | **1️⃣ Prompt Preparation** | Generate AI-friendly text prompts using patient details (name, condition, test results). |
 | **2️⃣ Clinical Note Generation** | Use a fine-tuned text-to-text model to produce structured clinical notes. |
 | **3️⃣ ICD-10 Code Automation** | Predict corresponding ICD-10 codes for each generated clinical note. |
+
 
 
 ---
