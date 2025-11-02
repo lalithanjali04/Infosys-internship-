@@ -170,9 +170,9 @@ Below is a sample before-and-after visualization generated during the enhancemen
 
 ## 🩻 X-ray Images: Before vs After Enhancement
 
-| Original Image | Enhanced Image |
-|----------------|----------------|
-| <img src="https://github.com/user-attachments/assets/2db8a912-3640-47f9-a7e7-2cb5306edf9d" alt="Original Image" width="350" /> | <img src="https://github.com/user-attachments/assets/39ba0fc9-eda3-47bd-946d-892ca3022a7a" alt="Enhanced Image" width="350" /> |
+| Original X-ray Image | Enhanced X-ray Image |
+|----------------------|----------------------|
+| <img width="346" height="197" alt="Screenshot 2025-10-25 121559" src="https://github.com/user-attachments/assets/YOUR_ORIGINAL_XRAY_IMAGE_ID" /> | <img width="334" height="180" alt="Screenshot 2025-10-25 121628" src="https://github.com/user-attachments/assets/YOUR_ENHANCED_XRAY_IMAGE_ID" /> |
 
 ---
 
