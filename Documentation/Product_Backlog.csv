@@ -1,0 +1,10 @@
+Planned Sprint,Actual Sprint,US ID,User Story Description,MOSCOW,Dependency,Assignee,Status
+Sprint 1,Sprint 1,US001,"As a doctor, I want to upload medical images so that the AI can enhance and process them.",Must Have,Image upload module,Frontend Team,Completed
+Sprint 1,Sprint 1,US002,"As an AI engineer, I want to integrate the image enhancement model so that doctors receive clearer visual outputs.",Must Have,Model availability,Backend Team,Completed
+Sprint 2,Sprint 2,US003,"As a clinician, I want to enter patient clinical notes so that the AI can generate structured medical summaries.",Must Have,Text input form,Frontend Team,Completed
+Sprint 2,Sprint 2,US004,"As an AI developer, I want the system to automatically generate ICD-10 codes so that diagnoses are standardized.",Should Have,Clinical summary output,Backend Team,Completed
+Sprint 3,Sprint 3,US005,"As a UI/UX designer, I want to create a clean and simple interface so that doctors can easily use the system.",Must Have,Backend API,Frontend Team,Completed
+Sprint 3,Sprint 3,US006,"As a backend engineer, I want to build API endpoints for image enhancement, report generation, and ICD-10 inference.",Must Have,AI model integration,Backend Team,Completed
+Sprint 4,Sprint 4,US007,"As a DevOps engineer, I want to deploy the entire application online so that it can be accessed from any device.",Could Have,Frontend & backend integration,DevOps Team,Completed
+Sprint 4,Sprint 4,US008,"As a QA tester, I want to validate all modules so that the system is reliable and error-free.",Should Have,Fully integrated system,QA Team,Completed
+Sprint 4,Sprint 4,US009,"As a technical writer, I want to prepare complete project documentation so that stakeholders can understand the system.",Must Have,Finalized features,Documentation Team,Completed
