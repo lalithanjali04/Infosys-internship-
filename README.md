@@ -1,4 +1,5 @@
-# AI-Powered-Enhanced-EHR-Imaging-Documentation-System
+#  AI-Powered Enhanced EHR Imaging & Documentation System
+### Developed as part of the **Infosys Springboard Internship Program — 2025**
 
 ### 📘 Module 1 – Data Collection & Preprocessing  
 
