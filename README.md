@@ -416,8 +416,11 @@ Over the course of four structured milestones, the project evolved from raw mult
 
 ### 🔹 End-to-End System Achievements
 - **Module 1:** Successfully collected, cleaned, and standardized structured (CSV) and unstructured (image/text) healthcare data, forming a unified dataset foundation for AI processing.
+  
 - **Module 2:** Applied medical image enhancement techniques (CLAHE, Gaussian filtering, bilateral filtering, and unsharp masking) achieving measurable quality improvement across X-ray and prescription datasets using PSNR and SSIM.
+  
 - **Module 3:** Implemented AI models using **Hugging Face Transformers** for realistic clinical note generation (Flan-T5) and automated disease coding (ICD-10 prediction model). All outputs were consolidated into a unified dataset for visualization.
+  
 - **Module 4:** Built and deployed a fully interactive **Streamlit-based clinical dashboard** for real-time patient record exploration, AI-powered documentation, and analytical insights, accessible globally through **Ngrok deployment via Google Colab**.
 
 
@@ -442,6 +445,4 @@ All code, models, and documentation have been developed solely for academic and 
 
 ## 📜 License
 
-This project is licensed under the **MIT License** issued as part of the  
-**Infosys Springboard Internship Program 2025**.  
-Please refer to the LICENSE file for additional terms and details.
+This project is licensed under the **MIT License** issued as part of the **Infosys Springboard Internship Program 2025**. Please refer to the LICENSE file for additional terms and details.
