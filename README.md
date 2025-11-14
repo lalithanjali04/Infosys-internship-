@@ -406,3 +406,42 @@ After generating the unified dataset, an **interactive Streamlit Dashboard** was
 
 The overall system allows real-time EHR exploration through a **web-based AI dashboard**. Combining AI outputs into a unified visualization system aids in **clinical decision-making** and **medical record transparency**.
 
+---
+
+## 🏁 Final Project Conclusion
+
+The **AI-Powered Enhanced EHR Imaging & Documentation System** successfully demonstrates an end-to-end integration of healthcare data processing, medical image enhancement, AI-driven clinical documentation, ICD-10 code prediction, and real-time deployment through an interactive Streamlit dashboard.
+
+Over the course of four structured milestones, the project evolved from raw multimodal medical data into a fully functional, intelligent clinical interface capable of supporting real-world healthcare workflows.
+
+### 🔹 End-to-End System Achievements
+- **Module 1:** Successfully collected, cleaned, and standardized structured (CSV) and unstructured (image/text) healthcare data, forming a unified dataset foundation for AI processing.
+- **Module 2:** Applied medical image enhancement techniques (CLAHE, Gaussian filtering, bilateral filtering, and unsharp masking) achieving measurable quality improvement across X-ray and prescription datasets using PSNR and SSIM.
+- **Module 3:** Implemented AI models using **Hugging Face Transformers** for realistic clinical note generation (Flan-T5) and automated disease coding (ICD-10 prediction model). All outputs were consolidated into a unified dataset for visualization.
+- **Module 4:** Built and deployed a fully interactive **Streamlit-based clinical dashboard** for real-time patient record exploration, AI-powered documentation, and analytical insights, accessible globally through **Ngrok deployment via Google Colab**.
+
+
+---
+
+### 🙏 Acknowledgment
+This marks the successful completion of all project milestones under the **Infosys Internship**, showcasing the potential of AI-Driven Healthcare Technology.
+
+This project is licensed under the **MIT License**, provided and approved through the **Infosys Internship Program 2025**.  
+All code, models, and documentation have been developed solely for academic and learning purposes under this internship initiative.
+
+---
+
+## 📬 Contact Information
+
+**Lalithanjali Kodavali**  
+📧 Email: *lalithak209@gmail.com*  
+🌐 LinkedIn: *[https://www.linkedin.com/in/lalithanjali-kodavali](https://www.linkedin.com/in/lalithanjali-kodavali/)*  
+🎓 Role: **Infosys Springboard Intern – 2025**  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** issued as part of the  
+**Infosys Springboard Internship Program 2025**.  
+Please refer to the LICENSE file for additional terms and details.
