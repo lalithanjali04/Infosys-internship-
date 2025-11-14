@@ -265,67 +265,12 @@ After the AI generation process, all outputs were **combined into a single CSV d
 
 ---
 
-## 🧭 Streamlit Dashboard Integration
-
-After generating the unified dataset, an **interactive Streamlit Dashboard** was developed for clinical data visualization and exploration.
-
-| Section | Functionality |
-|----------|---------------|
-| **Overview Table** | Displays all patient records with condition and ICD code. |
-| **Detailed View** | Shows individual patient details, AI-generated notes, and ICD prediction. |
-| **Data Insights** | Includes Pie Chart, Bar Graph, and Line Graph for better trend analysis. |
-
-### 💡 Visualization Highlights
-
-| Chart Type | Purpose |
-|-------------|----------|
-| **Pie Chart** | Shows medical condition distribution among patients. |
-| **Bar Graph** | Displays top 10 most frequent ICD-10 codes. |
-| **Line Graph** | Tracks hospital admissions over time. |
-
----
-
-## 📊 Streamlit App Layout Overview
-
-| Section | Description |
-|----------|-------------|
-| **Header** | Displays the app title and tagline with a professional aesthetic. |
-| **Search / Filter Sidebar** | Allows filtering by patient ID or name. |
-| **Clinical Note Viewer** | Shows AI-generated notes with styled text box (`#e6f2ff`). |
-| **ICD Code Display** | Highlighted in a success box (green) for easy readability. |
-| **Analytics Area** | Interactive Plotly visualizations for medical trend insights. |
-| **Footer** | Includes author information and GitHub/LinkedIn links. |
-
----
-
-## ⚙️ Key Libraries Used
-
-| Category | Libraries |
-|-----------|------------|
-| **AI / NLP** | `transformers`, `torch`, `tqdm` |
-| **Visualization** | `streamlit`, `plotly`, `matplotlib` |
-| **Data Processing** | `pandas`, `numpy` |
-| **Deployment** | `pyngrok` (for public Colab app access) |
-| **Utilities** | `os`, `Pillow`, `re` |
-
----
-
-## 📁 Output Files
-
-| File | Description |
-|------|-------------|
-| `/content/UnifiedDataset_with_images.csv` | Final unified dataset with AI notes and ICD codes |
-| `app.py` | Streamlit dashboard code |
-| `requirements.txt` | All dependencies required for model and dashboard execution |
-
----
-
 ## 🧩 Integration Notes
 
 - The generated **Unified Dataset** acts as the input for the **Streamlit visualization dashboard**.  
 - Enhancements in the model prompts improved note readability and diagnosis consistency.  
 - ICD-10 prediction achieved high contextual relevance with clinical notes.  
-- The overall system allows real-time EHR exploration through a **web-based AI dashboard**.
+
 
 ---
 
@@ -333,7 +278,7 @@ After generating the unified dataset, an **interactive Streamlit Dashboard** was
 
 - Leveraging **pre-trained transformer models** (like T5 and ICD prediction) simplifies medical text generation.  
 - AI-driven ICD coding automation reduces human effort and improves coding accuracy.  
-- Combining AI outputs into a unified visualization system aids in **clinical decision-making** and **medical record transparency**.
+
 
 ---
 
@@ -342,28 +287,8 @@ After generating the unified dataset, an **interactive Streamlit Dashboard** was
 - ✅ Structured clinical notes generated using **Flan-T5-Large**  
 - ✅ Automated ICD-10 code prediction using **AkshatSurolia/ICD-10-Code-Prediction**  
 - ✅ Created unified dataset: `/content/UnifiedDataset_with_images.csv`  
-- ✅ Designed a clean and interactive Streamlit dashboard (`app.py`)  
-- ✅ Integrated analytical visuals — Pie, Bar, and Line charts  
-- ✅ Deployment-ready via **Ngrok** for Colab-based public access  
 
----
-
-## 🧾 Summary
-
-Module 3 successfully bridges AI text generation, medical coding automation, and interactive visualization — forming the **intelligent documentation core** of the entire EHR system.  
-This serves as a critical step toward building AI-driven, structured, and interpretable healthcare data platforms.
-
-## AI-Powered Clinical Dashboard
-
-<img width="1918" height="933" alt="Screenshot 2025-11-02 201813" src="https://github.com/user-attachments/assets/be0ab400-dfe6-4240-a3a9-c92fac4b2b7c" />
-
----
-
-<img width="1919" height="961" alt="Screenshot 2025-11-02 201846" src="https://github.com/user-attachments/assets/e9424f92-0a3d-4815-83f3-79eb560e23e2" />
-
----
-
-<img width="1912" height="956" alt="Screenshot 2025-11-02 201906" src="https://github.com/user-attachments/assets/f682e8cf-bbee-4695-9c4b-a23d5dd339b8" />
+Module 3 successfully bridges AI text generation, medical coding automation, and interactive visualization — forming the **intelligent documentation core** of the entire EHR system. This serves as a critical step toward building AI-driven, structured, and interpretable healthcare data platforms.
 
 ---
 # 📘 Module 4 — Integration & Deployment
@@ -416,12 +341,68 @@ The dashboard is executed in **Google Colab** and exposed publicly using **Ngrok
 ### 4️⃣ Copy the Ngrok Public URL generated
 https://unquaking-alberta-caenogenetic.ngrok-free.dev
 
-# 📸 Deployment Demonstration
-Screenshots of the working deployed application are available in: /deployment_screenshots/
+---
+## 🧭 Streamlit Dashboard Integration
 
-## 🧠 Module Outcome
+After generating the unified dataset, an **interactive Streamlit Dashboard** was developed for clinical data visualization and exploration.
 
-✔ Fully deployed EHR AI system
-✔ Supports real-time patient record interaction
-✔ AI-powered note & diagnosis assistance
-✔ Ready for demonstration and evaluation
+| Section | Functionality |
+|----------|---------------|
+| **Overview Table** | Displays all patient records with condition and ICD code. |
+| **Detailed View** | Shows individual patient details, AI-generated notes, and ICD prediction. |
+| **Data Insights** | Includes Pie Chart, Bar Graph, and Line Graph for better trend analysis. |
+
+### 💡 Visualization Highlights
+
+| Chart Type | Purpose |
+|-------------|----------|
+| **Pie Chart** | Shows medical condition distribution among patients. |
+| **Bar Graph** | Displays top 10 most frequent ICD-10 codes. |
+| **Line Graph** | Tracks hospital admissions over time. |
+
+---
+
+## 📊 Streamlit App Layout Overview
+
+| Section | Description |
+|----------|-------------|
+| **Header** | Displays the app title and tagline with a professional aesthetic. |
+| **Search / Filter Sidebar** | Allows filtering by patient ID or name. |
+| **Clinical Note Viewer** | Shows AI-generated notes with styled text box (`#e6f2ff`). |
+| **ICD Code Display** | Highlighted in a success box (green) for easy readability. |
+| **Analytics Area** | Interactive Plotly visualizations for medical trend insights. |
+| **Footer** | Includes author information and GitHub/LinkedIn links. |
+
+
+---
+
+## 📁 Output Files
+
+| File | Description |
+|------|-------------|
+| `/content/UnifiedDataset_with_images.csv` | Final unified dataset with AI notes and ICD codes |
+| `app.py` | Streamlit dashboard code |
+| `requirements.txt` | All dependencies required for model and dashboard execution |
+
+---
+
+## 📸 AI-Powered Clinical Dashboard Deployment Demonstration
+
+<img width="1918" height="933" alt="Screenshot 2025-11-02 201813" src="https://github.com/user-attachments/assets/be0ab400-dfe6-4240-a3a9-c92fac4b2b7c" />
+
+---
+
+<img width="1919" height="961" alt="Screenshot 2025-11-02 201846" src="https://github.com/user-attachments/assets/e9424f92-0a3d-4815-83f3-79eb560e23e2" />
+
+---
+
+<img width="1912" height="956" alt="Screenshot 2025-11-02 201906" src="https://github.com/user-attachments/assets/f682e8cf-bbee-4695-9c4b-a23d5dd339b8" />
+
+## 🧠 Module-4 Results Summary
+
+- ✅ Designed a clean and interactive Streamlit dashboard (`app.py`)  
+- ✅ Integrated analytical visuals — Pie, Bar, and Line charts  
+- ✅ Deployment-ready via **Ngrok** for Colab-based public access
+
+The overall system allows real-time EHR exploration through a **web-based AI dashboard**. Combining AI outputs into a unified visualization system aids in **clinical decision-making** and **medical record transparency**.
+
